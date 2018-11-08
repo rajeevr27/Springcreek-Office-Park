@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+
+.grey {
+    border: 1px solid #727c7f; /*grey border*/
+}
+
+
+/********************
+Flex Container-turns body of page into flex container
+********************/
+body {
+      display: flex;
+      flex-direction: column;
+      max-width: 1366px;
+      min-height: 100vh;
+      min-width: 320px;
+      margin: auto;
+}
+
+/********************
+index.html page
+********************/
+
+/*Nested Flex Container for Navigation components*/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+/*Navigation Links*/
+nav a {
+    text-decoration: none;
+    color: #727c7f; /*grey dominant color hex code*/
+    padding: 10px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-delay: .2s;
+}
+
+ nav a:hover {
+    background-color: #b2977d;/* brown accent color hex code */
+    color: white;
+    padding: 10px;
+  }
+
+/*Nested Flex Container Main for description and features class attributes*/
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0px;
+}
+
+/*Flex Item-Controls color of Springcreek Office Park text in top navigation menu*/
+ .title{
+    font-size: 27px;
+    font-weight: bold;
+    color: #727c7f;/*grey dominant color hex code*/
+}
+
+/*Flex Item*/
+h2 {
+  padding: 16px;
+  margin: 0px;
+  background-color: #727c7f;/*grey dominant color hex code*/
+  color: white;
+}
+
+/*Flex Item*/
+.description {
+  padding: 15px 32px;
+  line-height: 25px;
+  max-width: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #b2977d;/*brown accent color hex code*/
+  color: white;
+  border-right: 1px solid white;
+}
+
+/*Flex Item*/
+.features {
+  padding: 15px 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #b2977d;/*brown accent color hex code*/
+  color: white;
+  border-left: 1px solid white;
+}
+
+/*Flex Item*/
+.features li {
+  list-style: square;
+}
+
+/*Flex Item*/
+footer {
+  margin-top: 0px;
+  padding: 10px;
+  color: #727c7f;/*grey dominant color hex code*/
+}
+
+/*Centrers text items*/
+.center{
+  text-align: center;
+}
+
+/*positions the image on index html page in center*/
+ #front {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********************
+viewbuilding.html page
+********************/
+
+.photogallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column .photo {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+  vertical-align: middle;
+  border: 2px solid #b2977d;/*brown accent color hex code*/
+}
+
+/********************
+directions.html page
+********************/
+
+.directions {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-page-directions {
+    width: 56%;
+    font-size: 20px;
+    text-align: center;
+    padding: 132px 15px;
+    background-color: #B2977D; /*brown accent color hex code*/
+    color: white;
+  }
+
+.map {
+  display: flex; /*enables Google Maps embed link to properly scale up and down when viewport size changes*/
+}
+
+.listdirections {
+  padding: 15px;
+}
+
+h3 {
+  color: #727c7f;/*grey dominant color hex code*/
+}
+
+/********************
+contact.html page
+********************/
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, white -50%, #b2977d);/*brown accent color hex code*/
+}
+
+.information {
+  font-size: 19px;
+  max-width: 50%;
+  padding: 16px;
+  background-color: #B2977D; /*brown accent color hex code*/
+  color: white;
+}
+
+ .hours {
+  font-size: 17px;
+  max-width: 50%;
+  padding: 16px;
+  background-color: #B2977D; /*brown accent color hex code*/
+  color: white;
+}
+
+.contact-person {
+  font-size: 17px;
+  max-width: 50%;
+  padding: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #B2977D; /*brown accent color hex code*/
+  color: white;
+}
+
+/********************
+Media Queries
+********************/
+
+/*controls layout on desktop and larger screens*/
+
+@media (max-width: 1023px) {
+  nav ul {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+nav li {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+}
+
+/*controls layout on tablet and mobile screens*/
+
+@media (max-width: 1000px) {
+
+  /*index.html page*/
+
+  .features li {
+    margin-bottom: 5px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .description{
+    max-width: 100%;
+    margin-bottom: 0px;
+    border-right-color: #727c7f;/*grey dominant color hex code*/
+    border-bottom: 1px solid white;
+  }
+  .features {
+    border-top: initial;
+    border-left-color: #727c7f;/*grey dominant color hex code*/
+  }
+
+  /*viewbuilding.html page*/
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /*directions.html page*/
+
+.directions {
+  flex-direction: column;
+}
+
+  .top-page-directions {
+    width: 100%;
+    padding: 32px 15px;
+  }
+
+  .top-page-directions address {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .map {
+    justify-content: center;
+    background-color: #cbcbcb3d;
+  }
+
+  /*contact.html page*/
+
+  .information {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 16px;
+    margin: 0px;
+    border-bottom: solid white 1px;
+  }
+
+   .hours {
+    font-size: 16px;
+    text-align: left;
+    max-width: 100%;
+    padding: 16px;
+    margin: 0px;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+  }
+
+  .contact-person {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 32px;
+    border-top: solid white 1px;
+  }
+}
