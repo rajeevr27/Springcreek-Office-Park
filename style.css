@@ -166,14 +166,6 @@ directions.html page
   display: flex; /*enables Google Maps embed link to properly scale up and down when viewport size changes*/
 }
 
-.listdirections {
-  padding: 15px;
-}
-
-h3 {
-  color: #727c7f;/*grey dominant color hex code*/
-}
-
 /********************
 contact.html page
 ********************/
