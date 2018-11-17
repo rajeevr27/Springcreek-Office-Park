@@ -114,6 +114,7 @@ footer {
 /*positions the image on index html page in center*/
  #front {
    width: 100%;
+   opacity: 0.8;
    display: block;
 }
 

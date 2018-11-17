@@ -1,9 +1,10 @@
-var myVar;
+let delayTimer;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 3000);
+    delayTimer = setTimeout(showPage, 3000);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
+  document.getElementById("front").style.opacity = "1";
 }
