@@ -207,7 +207,7 @@ loader
 /* Center the loader */
 
 #frontImagecontainer {
-  border: 1px solid #727c7f; /*grey border*/
+  border: 0.5px solid #727c7f; /*grey border*/
   position: relative;
 }
 
