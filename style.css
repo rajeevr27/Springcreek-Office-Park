@@ -116,6 +116,9 @@ footer {
    width: 100%;
    opacity: 0.8;
    display: block;
+   transition-property: opacity;
+   transition-duration: 2s;
+   transition-timing-function: ease;
 }
 
 /********************
