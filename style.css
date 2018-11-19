@@ -9,6 +9,7 @@
 .viewport {
   height: 50vh;
   background-color: #cbcbcb3d;
+  border: 1px solid #727c7f; /*grey border*/
 }
 
 
@@ -119,8 +120,8 @@ footer {
 /*positions the image on index html page in center*/
  #front {
    width: 100%;
-   opacity: 0.8;
    display: block;
+   opacity: 0.8;
    transition-property: opacity;
    transition-duration: 2s;
    transition-timing-function: ease;
