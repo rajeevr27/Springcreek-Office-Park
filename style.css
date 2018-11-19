@@ -6,6 +6,11 @@
     border: 1px solid #727c7f; /*grey border*/
 }
 
+.viewport {
+  height: 50vh;
+  background-color: #cbcbcb3d;
+}
+
 
 /********************
 Flex Container-turns body of page into flex container
@@ -263,6 +268,9 @@ nav li {
 
 @media (max-width: 1000px) {
 
+.viewport {
+  display: none;
+}
   /*index.html page*/
 
   .features li {
