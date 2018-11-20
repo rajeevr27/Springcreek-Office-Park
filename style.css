@@ -6,9 +6,12 @@
     border: 1px solid #727c7f; /*grey border*/
 }
 
-.bodymain {
-  height: 100vh;
+.viewOutside {
+  min-height: 100vh;
+  border: 0.1px solid #727c7f; /*grey border*/
+  background: linear-gradient(0deg, white -50%, #b2977d);
 }
+
 /********************
 Flex Container-turns body of page into flex container
 ********************/
@@ -265,6 +268,10 @@ nav li {
 
 @media (max-width: 1000px) {
 
+.viewOutside {
+  min-height: 0vh;
+}
+
 /*index.html page*/
 
   .features li {
@@ -311,7 +318,6 @@ nav li {
 
   .map {
     justify-content: center;
-    background-color: #cbcbcb3d;
   }
 
   /*contact.html page*/
