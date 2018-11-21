@@ -9,7 +9,7 @@
 .viewOutside {
   min-height: 100vh;
   border: 0.1px solid #727c7f; /*grey border*/
-  background: linear-gradient(0deg, white -50%, #b2977d);
+  background: linear-gradient(0deg, white -50%, lightgrey);
 }
 
 /********************
