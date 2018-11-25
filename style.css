@@ -7,7 +7,7 @@
 }
 
 .viewOutside {
-  min-height: 100vh;
+  min-height: calc(100vh - 72.4px);
   background: linear-gradient(0deg, white -50%, lightgrey);
 }
 
@@ -101,6 +101,11 @@ h2 {
 /*Flex Item*/
 .features li {
   list-style: square;
+}
+
+/*Flex Item*/
+header {
+  background-color: white;
 }
 
 /*Flex Item*/
@@ -265,10 +270,6 @@ nav li {
 /*controls layout on tablet and mobile screens*/
 
 @media (max-width: 1000px) {
-
-.viewOutside {
-  min-height: 0vh;
-}
 
 /*index.html page*/
 
