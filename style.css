@@ -174,6 +174,7 @@ directions.html page
 
 .map {
   display: flex; /*enables Google Maps embed link to properly scale up and down when viewport size changes*/
+  padding: 1px;
 }
 
 /********************
