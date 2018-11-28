@@ -3,11 +3,11 @@
 }
 
 .grey {
-    border: 0.5px solid #727c7f; /*grey border*/
+    border: 1px solid #727c7f; /*grey border*/
 }
 
 .stickyfooter {
-  min-height: calc(100vh - 72.4px);
+  flex: 1;
   background: linear-gradient(0deg, white -50%, lightgrey);
 }
 
@@ -164,7 +164,7 @@ directions.html page
 }
 
 .top-page-directions {
-    width: 56%;
+    flex: 1;
     font-size: 20px;
     text-align: center;
     padding: 132px 15px;
@@ -174,7 +174,6 @@ directions.html page
 
 .map {
   display: flex; /*enables Google Maps embed link to properly scale up and down when viewport size changes*/
-  padding: 1px;
 }
 
 /********************
