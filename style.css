@@ -1,13 +1,21 @@
+/********************
+CSS Common Rules-Applies to index.html, viewbuilding.html, directions.html and contact.html.
+********************/
+
 * {
   box-sizing: border-box;
 }
 
 .grey {
-    border: 1px solid #727c7f; /*grey border*/
+    border: 1px solid #727c7f; /*grey dominant border color*/
 }
 
 .white {
   background-color: white; /*white background for header and footer*/
+}
+
+.brown {
+  background-color: #b2977d;/*brown accent color hex code*/
 }
 
 .stickyfooter {
@@ -15,9 +23,31 @@
   background: linear-gradient(0deg, white -50%, lightgrey);
 }
 
+h2 {
+  padding: 16px;
+  margin: 0px;
+  background-color: #727c7f;/*grey dominant color hex code*/
+  color: white;
+}
+
+header {
+/*Keep this in case you want to make future styling changes to header*/
+}
+
+footer {
+  margin-top: 0px;
+  padding: 10px;
+  color: #727c7f;/*grey dominant color hex code*/
+}
+
+.center{
+  text-align: center; /*Centrers text items*/
+}
+
 /********************
 Flex Container-turns body of page into flex container
 ********************/
+
 body {
       display: flex;
       flex-direction: column;
@@ -28,10 +58,9 @@ body {
 }
 
 /********************
-index.html page
+Navigation components
 ********************/
 
-/*Nested Flex Container for Navigation components*/
 nav ul {
     display: flex;
     flex-direction: row;
@@ -57,27 +86,25 @@ nav a {
     padding: 10px;
   }
 
+/*Controls color of Springcreek Office Park text in top navigation menu*/
+
+.title {
+      font-size: 27px;
+      font-weight: bold;
+      color: #727c7f;/*grey dominant color hex code*/
+  }
+
+/********************
+  index.html page
+  ********************/
+
 /*Nested Flex Container Main for description and features class attributes*/
+
 .main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 0px;
-}
-
-/*Flex Item-Controls color of Springcreek Office Park text in top navigation menu*/
- .title{
-    font-size: 27px;
-    font-weight: bold;
-    color: #727c7f;/*grey dominant color hex code*/
-}
-
-/*Flex Item*/
-h2 {
-  padding: 16px;
-  margin: 0px;
-  background-color: #727c7f;/*grey dominant color hex code*/
-  color: white;
 }
 
 /*Flex Item*/
@@ -87,7 +114,6 @@ h2 {
   max-width: 60%;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #b2977d;/*brown accent color hex code*/
   color: white;
   border-right: 1px solid white;
 }
@@ -97,7 +123,6 @@ h2 {
   padding: 15px 32px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #b2977d;/*brown accent color hex code*/
   color: white;
   border-left: 1px solid white;
 }
@@ -105,23 +130,6 @@ h2 {
 /*Flex Item*/
 .features li {
   list-style: square;
-}
-
-/*Flex Item*/
-header {
-
-}
-
-/*Flex Item*/
-footer {
-  margin-top: 0px;
-  padding: 10px;
-  color: #727c7f;/*grey dominant color hex code*/
-}
-
-/*Centrers text items*/
-.center{
-  text-align: center;
 }
 
 /*positions the image on index html page in center*/
@@ -172,7 +180,6 @@ directions.html page
     font-size: 20px;
     text-align: center;
     padding: 132px 15px;
-    background-color: #B2977D; /*brown accent color hex code*/
     color: white;
   }
 
@@ -193,7 +200,6 @@ contact.html page
   font-size: 19px;
   max-width: 50%;
   padding: 16px;
-  background-color: #B2977D; /*brown accent color hex code*/
   color: white;
 }
 
@@ -201,7 +207,6 @@ contact.html page
   font-size: 17px;
   max-width: 50%;
   padding: 16px;
-  background-color: #B2977D; /*brown accent color hex code*/
   color: white;
 }
 
@@ -212,7 +217,6 @@ contact.html page
   line-height: 24px;
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: #B2977D; /*brown accent color hex code*/
   color: white;
 }
 
