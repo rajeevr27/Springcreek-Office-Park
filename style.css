@@ -1,6 +1,4 @@
-/********************
-CSS Common Rules-Applies to index.html, viewbuilding.html, directions.html and contact.html.
-********************/
+/* CSS Common Rules-Applies to index.html, viewbuilding.html, directions.html and contact.html.*/
 
 * {
   box-sizing: border-box;
@@ -28,10 +26,6 @@ h2 {
   margin: 0px;
   background-color: #727c7f;/*grey dominant color hex code*/
   color: white;
-}
-
-header {
-/*Keep this in case you want to make future styling changes to header*/
 }
 
 footer {
@@ -98,8 +92,7 @@ nav a {
   index.html page
   ********************/
 
-/*Nested Flex Container Main for description and features class attributes*/
-
+/* .main is a container for .description and .features classes */
 .main {
   display: flex;
   flex-direction: row;
@@ -121,6 +114,7 @@ nav a {
 /*Flex Item*/
 .features {
   padding: 15px 32px;
+  line-height: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: white;
@@ -132,7 +126,6 @@ nav a {
   list-style: square;
 }
 
-/*positions the image on index html page in center*/
  #front {
    width: 100%;
    display: block;
@@ -281,15 +274,11 @@ nav li {
 
 /*index.html page*/
 
-  .features li {
-    margin-bottom: 5px;
-  }
   .main {
     display: flex;
     flex-direction: column;
   }
   .description{
-    max-width: 100%;
     margin-bottom: 0px;
     border-right-color: #727c7f;/*grey dominant color hex code*/
     border-bottom: 1px solid white;
