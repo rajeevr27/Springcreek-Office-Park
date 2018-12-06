@@ -38,9 +38,7 @@ footer {
   text-align: center; /*Centrers text items*/
 }
 
-/* Flex Container-turns body of page into flex container */
-
-body {
+body {/* Flex Container-turns body of page into flex container */
       display: flex;
       flex-direction: column;
       max-width: 1366px;
@@ -160,7 +158,7 @@ nav a { /*Navigation Links*/
   }
 
 .map {
-  display: flex; /*enables Google Maps embed link to properly scale up and down when viewport size changes*/
+  display: flex; /*Enables Google Maps embed link to properly scale up and down when viewport size changes.*/
 }
 
 /* contact.html page */
