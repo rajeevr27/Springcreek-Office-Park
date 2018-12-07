@@ -1,7 +1,7 @@
 let delayTimer;
 
 function myFunction() {
-    delayTimer = setTimeout(showPage, 3000);
+    delayTimer = setTimeout(showPage, 3000);//Calls the showPage function after 3 seconds upon index.html page finishes loading.
 }
 
 function showPage() {
