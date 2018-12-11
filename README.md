@@ -1,4 +1,4 @@
-# Springcreek-Office-Park-Project
+# Springcreek-Office-Park
 
 ## Project Overview
 
