@@ -158,7 +158,7 @@ nav a { /*Navigation Links*/
   }
 
 .map {
-  display: flex; /*Enables Google Maps embed link to properly scale up and down when viewport size changes.*/
+  display: flex; /*Enables Google Maps embed link to resize when viewport size changes.*/
 }
 
 /* contact.html page */
