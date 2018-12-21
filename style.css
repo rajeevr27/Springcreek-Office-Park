@@ -36,6 +36,7 @@ footer {
 
 .center {
   text-align: center; /*Centrers text items*/
+  text-align: center; /*Centers text items*/
 }
 
 body {/* Flex Container-turns body of page into flex container */
