@@ -35,7 +35,6 @@ footer {
 }
 
 .center {
-  text-align: center; /*Centrers text items*/
   text-align: center; /*Centers text items*/
 }
 
@@ -308,7 +307,7 @@ nav li {
   }
 
   .contact-info {
-    font-size: 14px;
+    font-size: 16px;
     max-width: 100%;
     padding: 16px;
     margin-top: 0px;
