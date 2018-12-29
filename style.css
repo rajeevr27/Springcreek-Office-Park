@@ -193,6 +193,27 @@ nav a { /*Navigation Links*/
   color: white;
 }
 
+a[href^="tel:"] {
+  color: white;
+  text-decoration: none;
+}
+
+a[href^="tel:"]:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a[href^="mailto:"] {
+  color: white;
+  text-decoration: none;
+}
+
+a[href^="mailto:"]:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
 /* loader */
 
 #frontImagecontainer { /* Center the loader */
