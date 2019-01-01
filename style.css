@@ -35,7 +35,7 @@ footer {
 }
 
 .center {
-  text-align: center; /*Centers text items*/
+  text-align: center;
 }
 
 body {/* Flex Container-turns body of page into flex container */
@@ -195,12 +195,10 @@ nav a { /*Navigation Links*/
 
 a[href^="tel:"] {
   color: white;
-  text-decoration: underline;
 }
 
 a[href^="mailto:"] {
   color: white;
-  text-decoration: underline;
 }
 
 /* loader */
