@@ -62,16 +62,7 @@ nav a { /*Navigation Links*/
     text-decoration: none;
     color: #727c7f; /*grey dominant color hex code*/
     padding: 10px;
-    transition-property: background-color, color;
-    transition-duration: 1s;
-    transition-delay: .2s;
 }
-
- nav a:hover {
-    background-color: #b2977d;/* brown accent color hex code */
-    color: white;
-    padding: 10px;
-  }
 
 .title { /*Controls color and size of Springcreek Office Park text in top navigation menu*/
       font-size: 27px;
