@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.grey {
-    border: 1px solid #727c7f; /*grey dominant border color*/
-}
-
 .white {
   background-color: white; /*white background for header and footer*/
 }
