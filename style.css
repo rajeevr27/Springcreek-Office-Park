@@ -1,4 +1,4 @@
-/* CSS Common Rules for index.html, viewbuilding.html, directions.html and contact.html */
+/* CSS Common Rules */
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 .brown {
-  background-color: #b2977d;/*brown accent color hex code*/
+  background-color: #b2977d;/*brown accent color */
 }
 
 .stickyfooter {
@@ -20,14 +20,14 @@
 h2 {
   padding: 16px;
   margin: 0px;
-  background-color: #727c7f;/*grey dominant color hex code*/
+  background-color: #727c7f;/*grey dominant color */
   color: white;
 }
 
 footer {
   margin-top: 0px;
   padding: 10px;
-  color: #727c7f;/*grey dominant color hex code*/
+  color: #727c7f;/*grey dominant color */
 }
 
 .center {
@@ -40,6 +40,8 @@ body {/* Flex Container-turns body of page into flex container */
       min-height: 100vh;
       margin: auto;
       min-width: 320px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
 }
 
 .container {
@@ -60,14 +62,14 @@ nav ul {
 
 nav a { /*Navigation Links*/
     text-decoration: none;
-    color: #727c7f; /*grey dominant color hex code*/
+    color: #727c7f; /*grey dominant color */
     padding: 10px;
 }
 
 .title { /*Controls color and size of Springcreek Office Park text in top navigation menu*/
-      font-size: 27px;
+      font-size: 1.6875em;
       font-weight: bold;
-      color: #727c7f;/*grey dominant color hex code*/
+      color: #727c7f;/*grey dominant color */
   }
 
 /* index.html page */
@@ -130,7 +132,7 @@ nav a { /*Navigation Links*/
   margin-bottom: 4px;
   width: 100%;
   vertical-align: middle;
-  border: 2px solid #b2977d;/*brown accent color hex code*/
+  border: 2px solid #b2977d;/*brown accent color */
 }
 
 /* directions.html page */
@@ -142,7 +144,7 @@ nav a { /*Navigation Links*/
 
 .top-page-directions {
     flex: 1;
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: center;
     padding: 132px 15px;
     color: white;
@@ -158,25 +160,22 @@ nav a { /*Navigation Links*/
 .contact {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, white -50%, #b2977d);/*brown accent color hex code*/
+  background: linear-gradient(90deg, white -50%, #b2977d);/*brown accent color */
 }
 
 .information {
-  font-size: 19px;
   max-width: 50%;
   padding: 16px;
   color: white;
 }
 
  .hours {
-  font-size: 17px;
   max-width: 50%;
   padding: 16px;
   color: white;
 }
 
 .contact-info {
-  font-size: 17px;
   max-width: 50%;
   padding: 16px;
   line-height: 30px;
@@ -242,6 +241,20 @@ nav li {
 
 @media (max-width: 1000px) { /*controls layout on tablet and mobile screens*/
 
+/* CSS Common Rules */
+
+  .title {
+  font-size: 1.5625em;
+}
+
+  h2 {
+  font-size: 1.3em;
+}
+
+  footer {
+  font-size: 0.875em;
+}
+
 /*index.html page*/
 
   .main {
@@ -250,12 +263,12 @@ nav li {
   }
   .description{
     margin-bottom: 0px;
-    border-right-color: #727c7f;/*grey dominant color hex code*/
+    border-right-color: #727c7f;/*grey dominant color */
     border-bottom: 1px solid white;
   }
   .features {
     border-top: initial;
-    border-left-color: #727c7f;/*grey dominant color hex code*/
+    border-left-color: #727c7f;/*grey dominant color */
   }
 
   /*viewbuilding.html page*/
@@ -272,6 +285,7 @@ nav li {
 }
 
   .top-page-directions {
+    font-size: 1em;
     width: 100%;
     padding: 32px 15px;
   }
@@ -289,7 +303,6 @@ nav li {
   /*contact.html page*/
 
   .information {
-    font-size: 16px;
     max-width: 100%;
     padding: 16px;
     margin: 0px;
@@ -297,7 +310,6 @@ nav li {
   }
 
    .hours {
-    font-size: 16px;
     text-align: left;
     max-width: 100%;
     padding: 16px;
@@ -307,7 +319,6 @@ nav li {
   }
 
   .contact-info {
-    font-size: 16px;
     max-width: 100%;
     padding: 16px;
     margin-top: 0px;
