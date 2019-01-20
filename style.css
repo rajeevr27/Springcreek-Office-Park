@@ -8,6 +8,10 @@
   background-color: white; /*white background for header and footer*/
 }
 
+.bodytext {
+  color: white;
+}
+
 .brown {
   background-color: #b2977d;/*brown accent color */
 }
@@ -87,7 +91,6 @@ nav a { /*Navigation Links*/
   flex: 1;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: white;
   border-right: 1px solid white;
 }
 
@@ -96,7 +99,6 @@ nav a { /*Navigation Links*/
   line-height: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: white;
   border-left: 1px solid white;
 }
 
@@ -145,9 +147,7 @@ nav a { /*Navigation Links*/
 .top-page-directions {
     flex: 1;
     font-size: 1.25em;
-    text-align: center;
     padding: 132px 15px;
-    color: white;
   }
 
 .map {
@@ -165,14 +165,11 @@ nav a { /*Navigation Links*/
 
 .information {
   padding: 16px;
-  color: white;
   text-align: center;
 }
 
  .hours {
   padding: 16px;
-  color: white;
-  text-align: center;
 }
 
 .contact-info {
@@ -180,8 +177,6 @@ nav a { /*Navigation Links*/
   line-height: 30px;
   margin-top: 16px;
   margin-bottom: 16px;
-  color: white;
-  text-align: center;
 }
 
 a[href^="tel:"] {
@@ -286,7 +281,6 @@ nav li {
 
   .top-page-directions {
     font-size: 1em;
-    width: 100%;
     padding: 32px 15px;
   }
 
@@ -303,21 +297,18 @@ nav li {
   /*contact.html page*/
 
   .information {
-    padding: 16px;
     margin: 0px;
     text-align: justify;
     border-bottom: solid white 1px;
   }
 
    .hours {
-    padding: 16px;
     margin: 0px;
     border-bottom: solid white 1px;
     border-top: solid white 1px;
   }
 
   .contact-info {
-    padding: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 32px;
