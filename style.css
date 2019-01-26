@@ -168,6 +168,10 @@ nav a { /*Navigation Links*/
   text-align: center;
 }
 
+.days {
+  padding: 16px;
+}
+
  .hours {
   padding: 16px;
 }
@@ -302,7 +306,7 @@ nav li {
     border-bottom: solid white 1px;
   }
 
-   .hours {
+   .hours, .days {
     margin: 0px;
     border-bottom: solid white 1px;
     border-top: solid white 1px;
