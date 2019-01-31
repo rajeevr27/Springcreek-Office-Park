@@ -256,14 +256,16 @@ nav li {
     display: flex;
     flex-direction: column;
   }
-  .description{
+
+  .description {
     margin-bottom: 0px;
-    border-right-color: #727c7f;/*grey dominant color */
     border-bottom: 1px solid white;
+    border-right: none;
   }
+
   .features {
-    border-top: initial;
-    border-left-color: #727c7f;/*grey dominant color */
+    border-top: 1px solid white;
+    border-left: none;
   }
 
   /*viewbuilding.html page*/
