@@ -46,6 +46,7 @@ body {/* Flex Container-turns body of page into flex container */
       min-width: 320px;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 1em;
+      line-height: 1.5;
 }
 
 .container {
@@ -87,7 +88,7 @@ nav a { /*Navigation Links*/
 
 .description {
   padding: 15px 32px;
-  line-height: 25px;
+  line-height: 1.5625;
   flex: 1;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -96,7 +97,7 @@ nav a { /*Navigation Links*/
 
 .features {
   padding: 15px 32px;
-  line-height: 25px;
+  line-height: 1.5625;
   margin-top: 0px;
   margin-bottom: 0px;
   border-left: 1px solid white;
@@ -174,7 +175,7 @@ nav a { /*Navigation Links*/
 
 .contact-info {
   padding: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -307,7 +308,7 @@ nav li {
   .contact-info {
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 32px;
+    line-height: 2;
     border-top: solid white 1px;
   }
 }
