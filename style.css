@@ -58,7 +58,6 @@ body {/* Flex Container-turns body of page into flex container */
 
 nav ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -117,7 +116,6 @@ nav a { /*Navigation Links*/
 
 .photogallery {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -139,7 +137,6 @@ nav a { /*Navigation Links*/
 
 .directions {
   display: flex;
-  flex-direction: row;
 }
 
 .top-page-directions {
