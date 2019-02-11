@@ -81,9 +81,6 @@ nav a { /*Navigation Links*/
 
 .main { /* .main is a container for .description and .features classes */
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 0px;
 }
 
 .description {
