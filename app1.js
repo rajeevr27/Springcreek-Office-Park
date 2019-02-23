@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
         } else {
 
         document.querySelector(".alertbox").style.display="none";
-  }
 
         }
 
