@@ -4,14 +4,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const day = today.getDay();
   const  hour = today.getHours();
 
-  if (day == 1 && hour >= 9 && hour < 15) {
-
-        document.querySelector(".alertbox").style.display="flex";
-
-        } else {
-
-        document.querySelector(".alertbox").style.display="none";
-
-        }
+  if (day == 1 && day == 5 && hour >= 9 && hour < 15) {
+    document.querySelector(".alertbox").style.display="flex";
+      } else {
+    document.querySelector(".alertbox").style.display="none";
+  }
 
 });
