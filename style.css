@@ -218,7 +218,7 @@ a[href^="mailto:"] {
   margin: -75px 0 0 -75px;
   border: 14px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 14px solid #66b7e1;
+  border-top: 14px solid #1E90FF;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
