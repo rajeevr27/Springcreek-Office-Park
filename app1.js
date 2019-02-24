@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const day = today.getDay();
   const  hour = today.getHours();
 
-  if (day == 1 && day == 5 && hour >= 9 && hour < 15) {
+  if (day == 1 && hour >= 9 && hour < 15) {
     document.querySelector(".alertbox").style.display="flex";
       } else {
     document.querySelector(".alertbox").style.display="none";
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const close = document.querySelector(".closebutton");
 
   close.onclick = function(){
-      var div = this.parentElement;
+      const div = this.parentElement;
       div.style.transform = "translateY(-70px)";
       div.style.zIndex = "-1";
       div.style.transition = "all 2s";
