@@ -10,4 +10,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
     document.querySelector(".alertbox").style.display="none";
   }
 
+  const close = document.querySelector(".closebutton");
+
+  close.onclick = function(){
+      var div = this.parentElement;
+      div.style.transform = "translateY(-70px)";
+      div.style.zIndex = "-1";
+      div.style.transition = "all 2s";
+      div.style.opacity = "0";
+      setTimeout(function(){ div.style.display = "none"; }, 1300);
+    }
 });
