@@ -12,12 +12,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   const close = document.querySelector(".closebutton");
 
-  close.onclick = function(){
-      const div = this.parentElement;
-      div.style.transform = "translateY(-70px)";
-      div.style.zIndex = "-1";
-      div.style.transition = "all 2s";
-      div.style.opacity = "0";
-      setTimeout(function(){ div.style.display = "none"; }, 1300);
-    }
+  close.addEventListener("click", function(){
+      const content = this.parentElement;
+      if (content.style.display = "flex"){
+          content.style.display = "none";
+      } else {
+          content.style.display = "flex"
+      }
+  });
+
 });
