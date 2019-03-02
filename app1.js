@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', ()=> {
 
-    const today = new Date
+    const today = new Date();
     let timeZone = today.getTimezoneOffset();
     const springForward = new Date('March 10 2019 02:00:00');
     const fallBack = new Date('November 3 2019 02:00:00');
