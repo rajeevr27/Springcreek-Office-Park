@@ -17,21 +17,10 @@ function runFunction() {
         document.querySelector(".alertbox").style.display="none";
       }
 
-      const close = document.querySelector(".closebutton");
-
-      close.addEventListener("click", function(){
-          const content = this.parentElement;
-          if (content.style.display = "flex"){
-              content.style.display = "none";
-          } else {
-              content.style.display = "flex"
-          }
-      });
-
 }
 
 if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", runFunction);
-      } else {  
+      } else {
         runFunction();
 }
