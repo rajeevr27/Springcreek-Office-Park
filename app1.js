@@ -17,6 +17,14 @@ function runFunction() {
         document.querySelector(".alertbox").style.display="none";
       }
 
+      const close = document.querySelector(".closebutton");
+
+     close.addEventListener("click", function(){
+         const content = this.parentElement;
+         if (content.style.display = "flex"){
+             content.style.display = "none";
+         } 
+     });
 }
 
 if (document.readyState === "loading") {
