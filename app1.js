@@ -19,8 +19,8 @@ function runFunction() {
 
 }
 
-if (document.readyState === "loading") {
+  if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", runFunction);
-      } else {
+        } else {
         runFunction();
 }
