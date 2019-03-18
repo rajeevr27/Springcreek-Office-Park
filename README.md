@@ -18,4 +18,4 @@ Tablet View
 
 Smart Phone View
 
-
+<img src="screenshots/SmartPhone.png" width="300">
