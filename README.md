@@ -10,7 +10,7 @@ Built around the Flexbox layout to provide a more efficient way to layout, align
 
 Desktop View
 
-<img src="screenshots/Desktop.png" width="600">
+<img src="screenshots/Desktop.png" width="1000">
 
 Tablet View 
 
@@ -18,4 +18,4 @@ Tablet View
 
 Smart Phone View
 
-<img src="screenshots/Smart Phone.png" width="300">
+
