@@ -292,9 +292,9 @@ nav li {
 
   /*directions.html page*/
 
-.directions {
-  flex-direction: column;
-}
+  .directions {
+    flex-direction: column;
+  }
 
   .top-page-directions {
     font-size: 1em;
