@@ -24,10 +24,11 @@ function runFunction() {
       if (content.style.display = "flex"){
           content.style.display = "none";
       }
+      
       });
 
       }
-      
+
   if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", runFunction);
         } else {
