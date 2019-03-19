@@ -86,6 +86,16 @@ nav a { /*Navigation Links*/
   color: white;
 }
 
+.closebutton {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  order: 1;
+  cursor: pointer;
+  font-size: 1.375em;
+  line-height: 1;
+  }
+
 /* index.html page */
 
 .main { /* .main is a container for .description and .features classes */
