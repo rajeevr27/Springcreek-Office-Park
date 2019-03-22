@@ -1,4 +1,4 @@
-  function runFunction() {
+  function runFunction() { //Loader
 
       let delayTimer;
 
