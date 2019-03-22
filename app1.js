@@ -24,10 +24,10 @@ function runFunction() {
       if (content.style.display = "flex"){
           content.style.display = "none";
       }
-      
-      });
 
-      }
+      });//End of close addEventListener
+
+    }//End of runFunction
 
   if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", runFunction);
