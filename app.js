@@ -13,7 +13,7 @@
             document.getElementById("front").style.opacity = "1";
       }
 
-      }
+      }//End of runFunction
 
   if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", runFunction);
