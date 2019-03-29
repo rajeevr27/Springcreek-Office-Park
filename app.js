@@ -15,8 +15,8 @@
 
       }//End of runFunction
 
-  if (document.readyState === "loading") {
+  if (document.readyState === "loading") { // Loading is pending
       document.addEventListener("DOMContentLoaded", runFunction);
-    } else {
+    } else { // `DOMContentLoaded` is finished
       runFunction();
     }
