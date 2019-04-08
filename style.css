@@ -56,7 +56,7 @@ body {/* Flex Container-turns body of page into flex container */
 
 /* Navigation components */
 
-nav ul {
+nav ul { /* nav ul is a flex container nav a and .title class */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,7 +78,7 @@ nav a { /*Navigation Links*/
 
 /* Alert Message Box */
 
-.alertbox {
+.alertbox { /* .alertbox is a flex container for .closebutton class */
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -98,7 +98,7 @@ nav a { /*Navigation Links*/
 
 /* index.html page */
 
-.main { /* .main is a container for .description and .features classes */
+.main { /* .main is a flex container for .description and .features classes */
   display: flex;
 }
 
@@ -134,7 +134,7 @@ nav a { /*Navigation Links*/
 
 /* viewbuilding.html page */
 
-.photogallery {
+.photogallery { /* .photogallery is a flex container .column and .photo classes */
     display: flex;
     flex-wrap: wrap;
 }
@@ -155,7 +155,7 @@ nav a { /*Navigation Links*/
 
 /* directions.html page */
 
-.directions {
+.directions { /* .directions is a flex container .top-page-directions and .map classes */
   display: flex;
 }
 
@@ -172,7 +172,7 @@ nav a { /*Navigation Links*/
 
 /* contact.html page */
 
-.contact {
+.contact { /* .contact is a flex container for .information, .days, .hours and .contact-info classes */
   display: flex;
   flex-direction: column;
   background: linear-gradient(0deg, white -50%, #b2977d);/*brown accent color */
