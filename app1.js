@@ -19,7 +19,7 @@ function runFunction() {//Alert Message Box
 
       const close = document.querySelector(".closebutton");
 
-      close.addEventListener("click", function(){
+      close.addEventListener("click", function(){//Start of close addEventListener
       const content = this.parentElement;
       if (content.style.display = "flex"){
           content.style.display = "none";
