@@ -56,7 +56,7 @@ body {/* Flex Container-turns body of page into flex container */
 
 /* Navigation components */
 
-nav ul { /* nav ul is a flex container  for nav a and .title class */
+nav ul { /* nav ul is a flex container for nav a and .title class */
     display: flex;
     justify-content: space-around;
     align-items: center;
