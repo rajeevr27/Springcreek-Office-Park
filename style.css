@@ -56,7 +56,7 @@ body {/* Flex Container-turns body of page into flex container */
 
 /* Navigation components */
 
-nav ul { /* nav ul is a flex container nav a and .title class */
+nav ul { /* nav ul is a flex container  for nav a and .title class */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -134,7 +134,7 @@ nav a { /*Navigation Links*/
 
 /* viewbuilding.html page */
 
-.photogallery { /* .photogallery is a flex container .column and .photo classes */
+.photogallery { /* .photogallery is a flex container for .column and .photo classes */
     display: flex;
     flex-wrap: wrap;
 }
@@ -155,7 +155,7 @@ nav a { /*Navigation Links*/
 
 /* directions.html page */
 
-.directions { /* .directions is a flex container .top-page-directions and .map classes */
+.directions { /* .directions is a flex container for .top-page-directions and .map classes */
   display: flex;
 }
 
