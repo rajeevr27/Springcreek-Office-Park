@@ -249,7 +249,7 @@ a[href^="mailto:"] {
       margin-top:10px;
       margin-bottom:10px;
     }
-  }
+  }/* End of controls layout on desktop and larger screens*/
 
 @media (max-width: 1000px) { /*controls layout on tablet and mobile screens*/
 
@@ -327,4 +327,4 @@ a[href^="mailto:"] {
     line-height: 2;
     border-top: solid white 1px;
   }
-}
+}/*End of controls layout on tablet and mobile screens*/
