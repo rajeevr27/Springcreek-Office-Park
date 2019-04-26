@@ -94,7 +94,7 @@ nav a { /*Navigation Links*/
   cursor: pointer;
   font-size: 1.375em;
   line-height: 1;
-  }
+}
 
 /* index.html page */
 
@@ -238,32 +238,34 @@ a[href^="mailto:"] {
 /* Media Queries */
 
 @media (max-width: 1023px) { /*controls layout on desktop and larger screens*/
-  nav ul {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+
+    nav ul {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav li {
+      margin-top:10px;
+      margin-bottom:10px;
+    }
   }
-nav li {
-  margin-top:10px;
-  margin-bottom:10px;
-}
-}
 
 @media (max-width: 1000px) { /*controls layout on tablet and mobile screens*/
 
 /* CSS Common Rules */
 
   .title {
-  font-size: 1.5625em;
-}
+    font-size: 1.5625em;
+  }
 
   h2 {
-  font-size: 1.3em;
-}
+    font-size: 1.3em;
+  }
 
   footer {
-  font-size: 0.875em;
-}
+    font-size: 0.875em;
+  }
 
 /*index.html page*/
 
