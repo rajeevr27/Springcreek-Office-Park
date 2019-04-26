@@ -1,4 +1,6 @@
-function runFunction() {//Alert Message Box
+// Alert Message Box
+
+function runFunction() {
 
       const today = new Date();
       let timeZone = today.getTimezoneOffset();
