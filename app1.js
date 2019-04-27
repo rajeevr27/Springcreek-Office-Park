@@ -35,4 +35,4 @@ function runFunction() {
         document.addEventListener("DOMContentLoaded", runFunction);
         } else { // `DOMContentLoaded` is finished
         runFunction();
-}
+        }
