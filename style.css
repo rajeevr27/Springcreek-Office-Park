@@ -269,7 +269,7 @@ a[href^="mailto:"] {
 
 /*index.html page*/
 
-  .main {
+  .main { /* .main is a flex container for .description and .features classes */
     display: flex;
     flex-direction: column;
   }
@@ -294,7 +294,7 @@ a[href^="mailto:"] {
 
   /*directions.html page*/
 
-  .directions {
+  .directions { /* .directions is a flex container for .top-page-directions and .map classes */
     flex-direction: column;
   }
 
