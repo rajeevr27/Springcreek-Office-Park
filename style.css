@@ -270,7 +270,6 @@ a[href^="mailto:"] {
 /*index.html page*/
 
   .main { /* .main is a flex container for .description and .features classes */
-    display: flex;
     flex-direction: column;
   }
 
