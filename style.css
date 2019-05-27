@@ -127,13 +127,13 @@ index.html page
   list-style: square;
 }
 
- #front {
-   width: 100%;
-   display: block;
-   opacity: 0.8;
-   transition-property: opacity;
-   transition-duration: 2s;
-   transition-timing-function: ease;
+#front {
+  width: 100%;
+  display: block;
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 2s;
+  transition-timing-function: ease;
 }
 
 /*********************
