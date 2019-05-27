@@ -1,4 +1,6 @@
-/* CSS Common Rules */
+/***************
+CSS Common Rules
+***************/
 
 * {
   box-sizing: border-box;
@@ -96,7 +98,9 @@ nav a { /*Navigation Links*/
   line-height: 1;
 }
 
-/* index.html page */
+/**************
+index.html page
+**************/
 
 .main { /* .main is a flex container for .description and .features classes */
   display: flex;
@@ -132,7 +136,9 @@ nav a { /*Navigation Links*/
    transition-timing-function: ease;
 }
 
-/* viewbuilding.html page */
+/*********************
+viewbuilding.html page
+*********************/
 
 .photogallery { /* .photogallery is a flex container for .column and .photo classes */
     display: flex;
@@ -153,7 +159,9 @@ nav a { /*Navigation Links*/
   border: 2px solid #b2977d;/*brown accent color */
 }
 
-/* directions.html page */
+/*******************
+directions.html page
+*******************/
 
 .directions { /* .directions is a flex container for .top-page-directions and .map classes */
   display: flex;
@@ -170,7 +178,9 @@ nav a { /*Navigation Links*/
   background-color: #f2f2f2;
 }
 
-/* contact.html page */
+/****************
+contact.html page
+****************/
 
 .contact { /* .contact is a flex container for .information, .days, .hours and .contact-info classes */
   display: flex;
@@ -235,7 +245,9 @@ a[href^="mailto:"] {
   100% { transform: rotate(360deg); }
 }
 
-/* Media Queries */
+/*************
+ Media Queries
+ ************/
 
 @media (max-width: 1023px) { /*controls layout on desktop and larger screens*/
 
