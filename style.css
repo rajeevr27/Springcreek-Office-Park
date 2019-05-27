@@ -41,14 +41,14 @@ footer {
 }
 
 body {/* Flex Container-turns body of page into flex container */
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: auto;
-      min-width: 320px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 1em;
-      line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
+  min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 .container {
@@ -59,23 +59,23 @@ body {/* Flex Container-turns body of page into flex container */
 /* Navigation components */
 
 nav ul { /* nav ul is a flex container for nav a and .title class */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
 }
 
 nav a { /*Navigation Links*/
-    text-decoration: none;
-    color: #727c7f; /*grey dominant color */
-    padding: 10px;
+  text-decoration: none;
+  color: #727c7f; /*grey dominant color */
+  padding: 10px;
 }
 
 .title { /*Controls color and size of Springcreek Office Park text in top navigation menu*/
-      font-size: 1.6875em;
-      font-weight: bold;
-      color: #727c7f;/*grey dominant color */
+  font-size: 1.6875em;
+  font-weight: bold;
+  color: #727c7f;/*grey dominant color */
   }
 
 /* Alert Message Box */
@@ -141,8 +141,8 @@ viewbuilding.html page
 *********************/
 
 .photogallery { /* .photogallery is a flex container for .column and .photo classes */
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -168,9 +168,9 @@ directions.html page
 }
 
 .top-page-directions {
-    flex: 1;
-    font-size: 1.25em;
-    padding: 132px 15px;
+  flex: 1;
+  font-size: 1.25em;
+  padding: 132px 15px;
   }
 
 .map {
