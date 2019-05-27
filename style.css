@@ -76,7 +76,7 @@ nav a { /*Navigation Links*/
   font-size: 1.6875em;
   font-weight: bold;
   color: #727c7f;/*grey dominant color */
-  }
+}
 
 /* Alert Message Box */
 
@@ -171,7 +171,7 @@ directions.html page
   flex: 1;
   font-size: 1.25em;
   padding: 132px 15px;
-  }
+}
 
 .map {
   display: flex; /*Enables Google Maps embed link to resize when viewport size changes.*/
