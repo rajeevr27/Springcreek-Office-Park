@@ -56,7 +56,7 @@ body {/* Flex Container-turns body of page into flex container */
   margin: 0 auto;
 }
 
-/* Navigation components */
+/* Navigation Menu */
 
 nav ul { /* nav ul is a flex container for nav a and .title class */
   display: flex;
