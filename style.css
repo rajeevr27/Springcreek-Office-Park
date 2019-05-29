@@ -78,7 +78,9 @@ nav a { /*Navigation Links*/
   color: #727c7f;/*grey dominant color */
 }
 
-/* Alert Message Box */
+/****************
+Alert Message Box
+****************/
 
 .alertbox { /* .alertbox is a flex container for .closebutton class */
   display: flex;
