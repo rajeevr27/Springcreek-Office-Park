@@ -7,7 +7,7 @@ CSS Common Rules
 }
 
 .white {
-  background-color: white; /*white background for header and footer*/
+  background-color: white; /* white background for header and footer */
 }
 
 .bodytext {
@@ -15,7 +15,7 @@ CSS Common Rules
 }
 
 .brown {
-  background-color: #b2977d;/*brown accent color */
+  background-color: #b2977d;/* brown accent color */
 }
 
 .stickyfooter {
@@ -26,14 +26,14 @@ CSS Common Rules
 h2 {
   padding: 16px;
   margin: 0px;
-  background-color: #727c7f;/*grey dominant color */
+  background-color: #727c7f;/* grey dominant color */
   color: white;
 }
 
 footer {
   margin-top: 0px;
   padding: 10px;
-  color: #727c7f;/*grey dominant color */
+  color: #727c7f;/* grey dominant color */
 }
 
 .center {
@@ -66,16 +66,16 @@ nav ul { /* nav ul is a flex container for nav a and .title class */
   padding: 10px;
 }
 
-nav a { /*Navigation Links*/
+nav a { /* Navigation Links */
   text-decoration: none;
-  color: #727c7f; /*grey dominant color */
+  color: #727c7f; /* grey dominant color */
   padding: 10px;
 }
 
-.title { /*Controls color and size of Springcreek Office Park text in top navigation menu*/
+.title { /* Controls color and size of Springcreek Office Park text in top navigation menu */
   font-size: 1.6875em;
   font-weight: bold;
-  color: #727c7f;/*grey dominant color */
+  color: #727c7f;/* grey dominant color */
 }
 
 /****************
@@ -193,7 +193,7 @@ viewbuilding.html page
   margin-bottom: 4px;
   width: 100%;
   vertical-align: middle;
-  border: 2px solid #b2977d;/*brown accent color */
+  border: 2px solid #b2977d;/* brown accent color */
 }
 
 /*******************
@@ -211,7 +211,7 @@ directions.html page
 }
 
 .map {
-  display: flex; /*Enables Google Maps embed link to resize when viewport size changes.*/
+  display: flex; /* Enables Google Maps embed link to resize when viewport size changes. */
   background-color: #f2f2f2;
 }
 
@@ -253,7 +253,7 @@ a[href^="mailto:"] {
  Media Queries
  ************/
 
-@media (max-width: 1023px) { /*controls layout on desktop and larger screens*/
+@media (max-width: 1023px) { /* controls layout on desktop and larger screens */
 
     nav ul {
       flex-direction: column;
@@ -267,7 +267,7 @@ a[href^="mailto:"] {
     }
   }/* End of controls layout on desktop and larger screens*/
 
-@media (max-width: 1000px) { /*controls layout on tablet and mobile screens*/
+@media (max-width: 1000px) { /* controls layout on tablet and mobile screens */
 
 /* CSS Common Rules */
 
@@ -283,7 +283,7 @@ a[href^="mailto:"] {
     font-size: 0.875em;
   }
 
-/*index.html page*/
+/* index.html page */
 
   .main { /* .main is a flex container for .description and .features classes */
     flex-direction: column;
@@ -300,14 +300,14 @@ a[href^="mailto:"] {
     border-left: none;
   }
 
-  /*viewbuilding.html page*/
+  /* viewbuilding.html page */
 
   .column {
     flex: 100%;
     max-width: 100%;
   }
 
-  /*directions.html page*/
+  /* directions.html page */
 
   .directions { /* .directions is a flex container for .top-page-directions and .map classes */
     flex-direction: column;
@@ -322,7 +322,7 @@ a[href^="mailto:"] {
     justify-content: center;
   }
 
-  /*contact.html page*/
+  /* contact.html page */
 
   .information {
     margin: 0px;
@@ -342,4 +342,4 @@ a[href^="mailto:"] {
     line-height: 2;
     border-top: solid white 1px;
   }
-}/*End of controls layout on tablet and mobile screens*/
+}/* End of controls layout on tablet and mobile screens */
