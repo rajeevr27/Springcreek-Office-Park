@@ -147,16 +147,14 @@ index.html page
   padding: 15px 32px;
   line-height: 1.5625;
   flex: 1;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
   border-right: 1px solid white;
 }
 
 .features {
   padding: 15px 32px;
   line-height: 1.5625;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
   border-left: 1px solid white;
 }
 
@@ -288,7 +286,6 @@ a[href^="mailto:"] {
   }
 
   .description {
-    margin-bottom: 0px;
     border-bottom: 1px solid white;
     border-right: none;
   }
