@@ -168,9 +168,7 @@ index.html page
   width: 100%;
   display: block;
   opacity: 0.8;
-  transition-property: opacity;
-  transition-duration: 2s;
-  transition-timing-function: ease;
+  transition: opacity 2s ease;
 }
 
 /*********************
