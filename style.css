@@ -232,8 +232,7 @@ contact.html page
 .contact-info {
   padding: 16px;
   line-height: 1.875;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 0px;
 }
 
 a[href^="tel:"] {
@@ -331,8 +330,7 @@ a[href^="mailto:"] {
   }
 
   .contact-info {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
     line-height: 2;
     border-top: solid white 1px;
   }
