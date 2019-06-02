@@ -25,7 +25,7 @@ CSS Common Rules
 
 h2 {
   padding: 16px;
-  margin: 0px;
+  margin: 0;
   background-color: #727c7f;/* grey dominant color */
   color: white;
 }
@@ -147,14 +147,14 @@ index.html page
   padding: 15px 32px;
   line-height: 1.5625;
   flex: 1;
-  margin: 0px;
+  margin: 0;
   border-right: 1px solid white;
 }
 
 .features {
   padding: 15px 32px;
   line-height: 1.5625;
-  margin: 0px;
+  margin: 0;
   border-left: 1px solid white;
 }
 
@@ -228,7 +228,7 @@ contact.html page
 .contact-info {
   padding: 16px;
   line-height: 1.875;
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 a[href^="tel:"] {
@@ -314,19 +314,19 @@ a[href^="mailto:"] {
   /* contact.html page */
 
   .information {
-    margin: 0px;
+    margin: 0;
     text-align: justify;
     border-bottom: solid white 1px;
   }
 
    .hours, .days {
-    margin: 0px;
+    margin: 0;
     border-bottom: solid white 1px;
     border-top: solid white 1px;
   }
 
   .contact-info {
-    margin: 0px;
+    margin: 0;
     line-height: 2;
     border-top: solid white 1px;
   }
