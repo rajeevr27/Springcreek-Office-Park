@@ -221,11 +221,7 @@ contact.html page
   background: linear-gradient(0deg, white -50%, #b2977d);/*brown accent color */
 }
 
-.information {
-  padding: 16px;
-}
-
-.days, .hours {
+.information, .days, .hours {
   padding: 16px;
 }
 
