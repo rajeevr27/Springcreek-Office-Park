@@ -251,8 +251,7 @@ a[href^="mailto:"] {
     }
 
     nav li {
-      margin-top:10px;
-      margin-bottom:10px;
+      margin: 10px 0;
     }
   }/* End of controls layout on desktop and larger screens*/
 
