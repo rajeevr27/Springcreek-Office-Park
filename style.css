@@ -184,8 +184,7 @@ viewbuilding.html page
 }
 
 .column .photo {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px 0;
   width: 100%;
   vertical-align: middle;
   border: 2px solid #b2977d;/* brown accent color */
