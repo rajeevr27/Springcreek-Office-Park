@@ -209,6 +209,12 @@ directions.html page
   background-color: #f2f2f2;
 }
 
+.cross-street {
+  text-align: justify;
+  padding: 15px 32px;
+  background-color: #1E90FF;
+}
+
 /****************
 contact.html page
 ****************/
