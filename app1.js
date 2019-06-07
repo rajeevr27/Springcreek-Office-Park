@@ -9,11 +9,11 @@ function runFunction() {
       const day = today.getDay();
       const  hour = today.getHours();
 
-      if (day == 1 && hour >= 9 && hour < 15 && timeZone == 480 && today < springForward) {
+      if (day == 1 && hour >= 9 && hour < 10 && timeZone == 480 && today < springForward) {
         document.querySelector(".alertbox").style.display="flex";
-      } else if (day == 1 && hour >= 9 && hour < 15 && timeZone == 420 && today >= springForward && today < fallBack){
+      } else if (day == 1 && hour >= 9 && hour < 10 && timeZone == 420 && today >= springForward && today < fallBack){
         document.querySelector(".alertbox").style.display="flex";
-      } else if (day == 1 && hour >= 9 && hour < 15 && timeZone == 480 && today >= fallBack){
+      } else if (day == 1 && hour >= 9 && hour < 10 && timeZone == 480 && today >= fallBack){
         document.querySelector(".alertbox").style.display="flex";
       } else {
         document.querySelector(".alertbox").style.display="none";
