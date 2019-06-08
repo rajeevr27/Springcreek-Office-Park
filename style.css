@@ -200,8 +200,11 @@ directions.html page
 
 .top-page-directions {
   flex: 1;
-  font-size: 1.25em;
-  padding: 132px 15px;
+  padding: 15px 0px;
+}
+
+.top-page-directions li {
+  list-style: square;
 }
 
 .map {
