@@ -200,11 +200,18 @@ directions.html page
 
 .top-page-directions {
   flex: 1;
-  padding: 15px 0px;
+  padding-top: 15px;
 }
 
 .top-page-directions li {
   list-style: square;
+}
+
+.top-page-directions ul {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .map {
@@ -303,7 +310,6 @@ a[href^="mailto:"] {
   }
 
   .top-page-directions {
-    font-size: 1em;
     padding: 32px 15px;
   }
 
