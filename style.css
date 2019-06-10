@@ -208,10 +208,8 @@ directions.html page
 }
 
 .top-page-directions ul {
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 0 32px;
+    margin: 0;
 }
 
 .map {
