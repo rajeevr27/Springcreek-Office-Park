@@ -7,7 +7,7 @@ CSS Common Rules
 }
 
 .white {
-  background-color: white; /* white background for header and footer */
+  background-color: white;/* white background for header and footer */
 }
 
 .bodytext {
@@ -57,7 +57,7 @@ body {/* Flex Container-turns body of page into flex container */
 
 /* Navigation Menu */
 
-nav ul { /* nav ul is a flex container for nav a and .title class */
+nav ul {/* nav ul is a flex container for nav a and .title class */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,13 +65,13 @@ nav ul { /* nav ul is a flex container for nav a and .title class */
   padding: 10px;
 }
 
-nav a { /* Navigation Links */
+nav a {/* Navigation Links */
   text-decoration: none;
-  color: #727c7f; /* grey dominant color */
+  color: #727c7f;/* grey dominant color */
   padding: 10px;
 }
 
-.title { /* Controls color and size of Springcreek Office Park text in top navigation menu */
+.title {/* Controls color and size of Springcreek Office Park text in top navigation menu */
   font-size: 1.6875em;
   font-weight: bold;
   color: #727c7f;/* grey dominant color */
@@ -81,7 +81,7 @@ nav a { /* Navigation Links */
 Alert Message Box
 ****************/
 
-.alertbox { /* .alertbox is a flex container for .closebutton class */
+.alertbox {/* .alertbox is a flex container for .closebutton class */
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -103,7 +103,7 @@ Alert Message Box
  Loader
 *******/
 
-#frontImagecontainer { /* Centers the loader */
+#frontImagecontainer {/* Centers the loader */
   position: relative;
 }
 
@@ -138,7 +138,7 @@ Alert Message Box
 index.html page
 **************/
 
-.main { /* .main is a flex container for .description and .features classes */
+.main {/* .main is a flex container for .description and .features classes */
   display: flex;
 }
 
@@ -172,7 +172,7 @@ index.html page
 viewbuilding.html page
 *********************/
 
-.photogallery { /* .photogallery is a flex container for .column and .photo classes */
+.photogallery {/* .photogallery is a flex container for .column and .photo classes */
   display: flex;
   flex-wrap: wrap;
 }
@@ -194,7 +194,7 @@ viewbuilding.html page
 directions.html page
 *******************/
 
-.directions { /* .directions is a flex container for .top-page-directions and .map classes */
+.directions {/* .directions is a flex container for .top-page-directions and .map classes */
   display: flex;
 }
 
@@ -213,7 +213,7 @@ directions.html page
 }
 
 .map {
-  display: flex; /* Enables Google Maps embed link to resize when viewport size changes. */
+  display: flex;/* Enables Google Maps embed link to resize when viewport size changes. */
   background-color: #f2f2f2;
 }
 
@@ -221,7 +221,7 @@ directions.html page
 contact.html page
 ****************/
 
-.contact { /* .contact is a flex container for .information, .days, .hours and .contact-info classes */
+.contact {/* .contact is a flex container for .information, .days, .hours and .contact-info classes */
   display: flex;
   flex-direction: column;
   background: linear-gradient(0deg, white -50%, #b2977d);/*brown accent color */
@@ -249,7 +249,7 @@ a[href^="mailto:"] {
  Media Queries
  ************/
 
-@media (max-width: 1023px) { /* controls layout on desktop and larger screens */
+@media (max-width: 1023px) {/* controls layout on desktop and larger screens */
 
     nav ul {
       flex-direction: column;
@@ -262,7 +262,7 @@ a[href^="mailto:"] {
     }
   }/* End of controls layout on desktop and larger screens*/
 
-@media (max-width: 1000px) { /* controls layout on tablet and mobile screens */
+@media (max-width: 1000px) {/* controls layout on tablet and mobile screens */
 
 /* CSS Common Rules */
 
@@ -280,7 +280,7 @@ a[href^="mailto:"] {
 
 /* index.html page */
 
-  .main { /* .main is a flex container for .description and .features classes */
+  .main {/* .main is a flex container for .description and .features classes */
     flex-direction: column;
   }
 
@@ -303,7 +303,7 @@ a[href^="mailto:"] {
 
   /* directions.html page */
 
-  .directions { /* .directions is a flex container for .top-page-directions and .map classes */
+  .directions {/* .directions is a flex container for .top-page-directions and .map classes */
     flex-direction: column;
   }
 
