@@ -105,6 +105,9 @@ Alert Message Box
 
 #frontImagecontainer {/* Centers the loader */
   position: relative;
+  height: 0;
+  padding-bottom: 45.12%;
+  background-color: #795548;
 }
 
 #loader {
@@ -166,6 +169,7 @@ index.html page
   display: block;
   opacity: 0.8;
   transition: opacity 2s ease;
+  position: absolute;
 }
 
 /*********************
