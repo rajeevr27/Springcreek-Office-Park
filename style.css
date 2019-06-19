@@ -179,6 +179,7 @@ viewbuilding.html page
 .photogallery {/* .photogallery is a flex container for .column and .photo classes */
   display: flex;
   flex-wrap: wrap;
+  background: linear-gradient(0deg, white -50%, #9E9E9E);
 }
 
 .column {
