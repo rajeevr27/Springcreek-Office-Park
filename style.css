@@ -103,7 +103,7 @@ Alert Message Box
  Loader
 *******/
 
-#frontImagecontainer {/* Centers the loader */
+#frontImagecontainer {/* Prevents container from collapsing when #front image is loading and Centers the loader */
   position: relative;
   height: 0;
   padding-bottom: 45.12%;
