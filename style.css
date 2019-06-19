@@ -107,7 +107,7 @@ Alert Message Box
   position: relative;
   height: 0;
   padding-bottom: 45.12%;/* #front image dimensions (image height 462px/image width 1024px)*100% = 45.12% calculates the ratio of the container so it resizes fluidly to the correct dimensions. */
-  background-color: #795548;
+  background-color: #9E9E9E;
 }
 
 #loader {
