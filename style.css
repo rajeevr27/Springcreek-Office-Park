@@ -167,7 +167,7 @@ index.html page
 #front {
   width: 100%;
   display: block;
-  opacity: 0.8;
+  opacity: 0.5;
   transition: opacity 2s ease;
   position: absolute;
 }
