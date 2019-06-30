@@ -185,7 +185,9 @@ viewbuilding.html page
 .column {
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
+  padding: 0 4px 104%;
+  height: 0;
+  position: relative;
 }
 
 .column .photo {
@@ -304,6 +306,7 @@ a[href^="mailto:"] {
   .column {
     flex: 100%;
     max-width: 100%;
+    padding-bottom: 208%;
   }
 
   /* directions.html page */
