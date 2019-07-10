@@ -199,12 +199,14 @@ viewbuilding.html page
   height: 0;
   padding-bottom: 133%;
   margin: 4px 0;
+  background-color: #6f87a0;
 }
 
 .small-photo-container {
   height: 0;
   padding-bottom: 75%;
   margin: 4px 0;
+  background-color: grey;
 }
 
 /*******************
