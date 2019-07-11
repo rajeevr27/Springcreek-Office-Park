@@ -185,28 +185,29 @@ viewbuilding.html page
 .column {
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px 104%;
+  padding: 0 4px 105%;
   height: 0;
 }
 
 .column .photo {
   width: 100%;
   vertical-align: middle;
-  border: 2px solid #b2977d;/* brown accent color */
 }
 
 .large-photo-container {
   height: 0;
   padding-bottom: 133%;
-  margin: 4px 0;
+  margin: 6px 0;
   background-color: #6f87a0;
+  border: 2px solid #b2977d;/* brown accent color */
 }
 
 .small-photo-container {
   height: 0;
   padding-bottom: 75%;
-  margin: 4px 0;
+  margin: 6px 0;
   background-color: grey;
+  border: 2px solid #b2977d;/* brown accent color */
 }
 
 /*******************
@@ -318,7 +319,7 @@ a[href^="mailto:"] {
   .column {
     flex: 100%;
     max-width: 100%;
-    padding-bottom: 208%;
+    padding-bottom: 210%;
   }
 
   /* directions.html page */
