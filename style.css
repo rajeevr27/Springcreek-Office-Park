@@ -197,7 +197,7 @@ viewbuilding.html page
 .large-photo-container {
   height: 0;
   padding-bottom: 133%;
-  margin: 6px 0;
+  margin: 6px -1px;
   background-color: #6f87a0;
   border: 2px solid #b2977d;/* brown accent color */
 }
@@ -205,7 +205,7 @@ viewbuilding.html page
 .small-photo-container {
   height: 0;
   padding-bottom: 75%;
-  margin: 6px 0;
+  margin: 6px -1px;
   background-color: grey;
   border: 2px solid #b2977d;/* brown accent color */
 }
