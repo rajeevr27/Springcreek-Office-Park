@@ -8,12 +8,12 @@ A responsive website layout design conceptualized to showcase the Springcreek Of
 
 Desktop View
 
-<img src="screenshots/Desktop.png" width="1000">
+<img src="screenshots/Desktop.png" alt="Desktop View" width="1000">
 
 Tablet View 
 
-<img src="screenshots/Tablet.png" width="500">
+<img src="screenshots/Tablet.png" alt="Tablet View" width="500">
 
 Smart Phone View
 
-<img src="screenshots/SmartPhone.png" width="300">
+<img src="screenshots/SmartPhone.png" alt="Smart Phone View" width="300">
