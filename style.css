@@ -42,7 +42,6 @@ footer {
 body {/* Flex Container-turns body of page into flex container */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin: auto;
   min-width: 320px;
   font-family: Arial, Helvetica, sans-serif;
