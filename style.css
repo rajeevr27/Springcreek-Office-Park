@@ -18,8 +18,7 @@ CSS Common Rules
   background-color: #b2977d;/* brown accent color */
 }
 
-.stickyfooter {
-  flex: 1;
+.main-container {
   background: linear-gradient(0deg, white -50%, lightgrey);
 }
 
