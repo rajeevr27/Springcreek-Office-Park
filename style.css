@@ -29,6 +29,10 @@ h2 {
   color: white;
 }
 
+header {
+  padding: 8px;
+}
+
 footer {
   padding: 10px;
   color: #727c7f;/* grey dominant color */
