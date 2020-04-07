@@ -64,7 +64,7 @@ nav ul {/* nav ul is a flex container for nav a and .title class */
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav a {/* Navigation Links */
