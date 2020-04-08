@@ -52,7 +52,7 @@ body {/* Flex Container-turns body of page into flex container */
   line-height: 1.5;
 }
 
-.container {
+.wrapper {
   max-width: 1024px;
   margin: 0 auto;
 }
