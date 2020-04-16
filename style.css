@@ -19,7 +19,10 @@ CSS Common Rules
 }
 
 .main-container {
-  background: linear-gradient(0deg, white -50%, lightgrey);
+  background: linear-gradient(0deg, white -150%, #b2977d);
+  max-width: 1024px;
+  margin: 0 auto;
+  flex: 1;
 }
 
 h2 {
@@ -50,6 +53,8 @@ body {/* Flex Container-turns body of page into flex container */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.5;
+  min-height: 100vh;
+  background-color: lightgrey;
 }
 
 .wrapper {
@@ -216,11 +221,12 @@ contact.html page
 .contact {/* .contact is a flex container for .information, .days, .hours and .contact-info classes */
   display: flex;
   flex-direction: column;
-  background: linear-gradient(0deg, white -50%, #b2977d);/*brown accent color */
+  background: linear-gradient(0deg, white -150%, #b2977d);/*brown accent color */
 }
 
 .information, .days, .hours {
   padding: 16px;
+  min-width: 1024px;
 }
 
 .contact-info {
@@ -270,6 +276,10 @@ a[href^="mailto:"] {
     font-size: 0.875em;
   }
 
+  .main-container {
+    margin: 0;
+  }
+
 /* index.html page */
 
   .main {/* .main is a flex container for .description and .features classes */
@@ -314,12 +324,14 @@ a[href^="mailto:"] {
     margin: 0;
     text-align: justify;
     border-bottom: solid white 1px;
+    min-width: 0;
   }
 
    .hours, .days {
     margin: 0;
     border-bottom: solid white 1px;
     border-top: solid white 1px;
+    min-width: 0;
   }
 
   .contact-info {
