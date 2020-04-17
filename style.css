@@ -19,8 +19,7 @@ CSS Common Rules
 }
 
 .main-container {
-  background: linear-gradient(0deg, white -150%, #b2977d);
-  margin: 0 auto;
+  background: linear-gradient(0deg, white -50%, lightgrey);
   flex: 1;
 }
 
