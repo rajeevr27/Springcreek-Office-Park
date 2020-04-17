@@ -52,7 +52,6 @@ body {/* Flex Container-turns body of page into flex container */
   font-size: 1em;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: lightgrey;
 }
 
 .wrapper {
