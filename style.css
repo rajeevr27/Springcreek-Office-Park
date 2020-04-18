@@ -229,10 +229,7 @@ contact.html page
   margin: 16px 0;
 }
 
-a[href^="tel:"] {
-  color: white;
-}
-
+a[href^="tel:"],
 a[href^="mailto:"] {
   color: white;
 }
