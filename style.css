@@ -6,42 +6,6 @@ CSS Common Rules
   box-sizing: border-box;
 }
 
-.white {
-  background-color: white;/* white background for header and footer */
-}
-
-.bodytext {
-  color: white;
-}
-
-.brown {
-  background-color: #b2977d;/* brown accent color */
-}
-
-.main {
-  background: linear-gradient(0deg, white -50%, lightgrey);
-}
-
-h2 {
-  padding: 16px;
-  margin: 0;
-  background-color: #727c7f;/* grey dominant color */
-  color: white;
-}
-
-header {
-  padding: 5px;
-}
-
-footer {
-  padding: 5px;
-  color: #727c7f;/* grey dominant color */
-}
-
-.center {
-  text-align: center;
-}
-
 body {/* Flex Container-turns body of page into flex container */
   display: flex;
   flex-direction: column;
@@ -52,9 +16,8 @@ body {/* Flex Container-turns body of page into flex container */
   line-height: 1.5;
 }
 
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+header {
+  padding: 5px;
 }
 
 /* Navigation Menu */
@@ -77,6 +40,43 @@ nav a {/* Navigation Links */
   font-size: 1.6875em;
   font-weight: bold;
   color: #727c7f;/* grey dominant color */
+}
+
+h2 {
+  padding: 16px;
+  margin: 0;
+  background-color: #727c7f;/* grey dominant color */
+  color: white;
+}
+
+.main {
+  background: linear-gradient(0deg, white -50%, lightgrey);
+}
+
+footer {
+  padding: 5px;
+  color: #727c7f;/* grey dominant color */
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.white {
+  background-color: white;/* white background for header and footer */
+}
+
+.bodytext {
+  color: white;
+}
+
+.brown {
+  background-color: #b2977d;/* brown accent color */
 }
 
 /*******
